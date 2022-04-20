@@ -90,7 +90,8 @@ const loginRules = {
 const codeUrl = ref("");
 const loading = ref(false);
 // 验证码开关
-const captchaOnOff = ref(true);
+// const captchaOnOff = ref(true);
+const captchaOnOff = false
 // 注册开关
 const register = ref(false);
 const redirect = ref(undefined);
